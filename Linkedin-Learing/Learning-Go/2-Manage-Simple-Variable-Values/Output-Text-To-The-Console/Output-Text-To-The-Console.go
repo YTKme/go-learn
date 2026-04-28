@@ -1,0 +1,20 @@
+package main
+
+import "fmt"
+
+func main() {
+	str1 := "The quick red fox"
+	str2 := "jumped over"
+	str3 := "the lazy brown dog."
+	aNumber := 42
+
+	fmt.Println(str1, str2, str3)
+
+	stringLength, err := fmt.Println("The String Length Value:", aNumber)
+	if err == nil {
+		fmt.Println("String Length:", stringLength)
+	}
+
+	fmt.Printf("Value of Number: %v\n", aNumber)
+	fmt.Printf("Data Type of Number: %T\n", aNumber)
+}
